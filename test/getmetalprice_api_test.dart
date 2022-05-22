@@ -1,5 +1,5 @@
-import 'package:getmetalprice_api/server.dart';
 import 'package:test/test.dart';
+import '../web/server.dart';
 
 void main() {
   test('calculate', () {
