@@ -3,9 +3,8 @@ import 'package:html/parser.dart';
 import 'package:http/http.dart' as http;
 import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf_router/shelf_router.dart';
-
-import '../data/globle_gold_price.dart';
-import '../data/in_gold_price.dart';
+import 'data/globle_gold_price.dart';
+import 'data/in_gold_price.dart';
 
 class Api {
   // Creates a new [Router] routing requests to handlers.
