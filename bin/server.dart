@@ -7,7 +7,7 @@ import 'package:shelf/shelf.dart';
 import 'package:shelf/shelf_io.dart';
 import 'api.dart';
 
-Future<void> runServer() async {
+Future<void> main(List<String> args) async {
   //// initialing api
   final api = Api();
   // Use any available host or container IP (usually `0.0.0.0`).
